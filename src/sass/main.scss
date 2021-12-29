@@ -1,0 +1,25 @@
+/*
+ * Главный файл стилей.
+ * Все паршалы подключаются сюда.
+ */
+
+// Стили для файла с примером HTML-фрагмента
+// @import './example';
+@import './utils/variables';
+@import './utils/visually-hidden';
+@import './utils/mixin';
+@import './base/common';
+@import './base/container';
+@import './layout/footer';
+@import './layout/hero';
+@import './layout/header';
+@import './components/modal-window-team.scss';
+@import './components/up';
+@import './layout/hero-library';
+@import './layout/films';
+@import './layout/light-night';
+
+@import './layout/pagination';
+
+@import './utils/spiner';
+@import './layout/modal-film-card';
